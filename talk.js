@@ -45,23 +45,23 @@ function H() {
     modal('ลองคิดดูนะ', I);
 }
  function I() {
-    modal('我会买很多东西给你', J)
+    modal('ห้ะ', J)
 }
 function I() {
-    modal('会好好疼你', J)
+    modal('ห้ะ', J)
 }
 function I() {
-    modal('会哄你睡觉', J)
+    modal('ห้ะ', J)
 }
 function I() {
-    modal('会唱歌给你听', J)
+    modal('ห้ะ', J)
 }
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('ห้ะ', J)
 }
 
 function J() {
-    modal('ไม่', function() {
+    modal('ไอกาก', function() {
         fireworks();
     });
 }
