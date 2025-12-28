@@ -18,7 +18,7 @@ function A() {
 }
 
 function B() {
-    modal('อืม แล้วแต่จะคิด', C);
+    modal('อืม แล้วแต่จะคิด ชีวิตคนละแบบ', C);
 }
 
 function C() {
@@ -26,11 +26,11 @@ function C() {
 }
 
 function D() {
-    modal('อะ ไปตอบใหม่', E);
+    modal('อึมเค', E);
 }
 
 function E() {
-    modal('ไม่รักก็ไม่ต้องผ่านจ้า', F);
+    modal('คือเสียใจ', F);
 }
 
 function F() {
@@ -61,7 +61,7 @@ function I() {
 }
 
 function J() {
-    modal('ไอกาก', function() {
+    modal('หว่ออ้านหนี่เด้อ', function() {
         fireworks();
     });
 }
