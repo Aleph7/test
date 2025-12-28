@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('รักเทอร์ภาษาจีน', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,40 +9,40 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('โคตรจะเสียใจอะ', A);
     });
 });
 
 function A() {
-    modal('我爱你！', B);
+    modal('ไปคิดใหม่อีกรอบนะ', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('อืม แล้วแต่จะคิด', C);
 }
 
 function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
+    modal('ช่างมัน', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('อะ ไปตอบใหม่', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我的!!!', F);
+    modal('ไม่รักก็ไม่ต้องผ่านจ้า', F);
 }
 
 function F() {
-    modal('跟我走吧宝宝~', G);
+    modal('ที่พูดมาเข้าใจบ้างมะ', G);
 }
 
 function G() {
-    modal('房产证上写你的名字', H);
+    modal('หิวข้าว', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('ลองคิดดูนะ', I);
 }
  function I() {
     modal('我会买很多东西给你', J)
@@ -61,7 +61,7 @@ function I() {
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('ไม่', function() {
         fireworks();
     });
 }
@@ -76,7 +76,7 @@ function modal(content, callback) {
         '<div class="mask"></div>'+
         '<div class="modal">'+
         '<p>'+ content +'</p>'+
-        '<button type="button" id="confirm" class="confirm">确定</button>'+
+        '<button type="button" id="confirm" class="confirm">จ่ะ</button>'+
         '</div>'+
         '</div>';
     $('body').append(tpl);
